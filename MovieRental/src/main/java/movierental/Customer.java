@@ -29,7 +29,6 @@ public class Customer {
         // add footer lines
         result += "Amount owed is " + getTotalCharge() + "\n";
         result += "You earned " + getTotalFrequentRenterPoints() + " frequent renter points";
-
         return result;
     }
     
